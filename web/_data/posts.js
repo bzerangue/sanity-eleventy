@@ -32,6 +32,8 @@ async function getPosts () {
         }
       }
     },
+    mainImage,
+    "mainImageUrl": mainImage.asset->url,
     "authors": authors[].author->
   }`
   const order = `| order(publishedAt asc)`
